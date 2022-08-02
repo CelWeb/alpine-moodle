@@ -18,7 +18,7 @@ services:
     environment:
       - LANG=ru_RU.UTF-8
       - LANGUAGE=ru_RU:ru
-      - SITE_URL=https://moodle.kbadk.ru/
+      - SITE_URL=http://moodle.kbadk.ru/
       - DB_TYPE=pgsql
       - DB_HOST=postgres
       - DB_PORT=5432
@@ -26,7 +26,7 @@ services:
       - DB_USER=celadmin
       - DB_PASS=u8HXKagCn0
       - DB_PREFIX=mdl_
-      - SSLPROXY=true
+      - SSLPROXY=false
       - MOODLE_EMAIL=webmaster@kbadk.ru
       - MOODLE_LANGUAGE=ru
       - MOODLE_SITENAME=KBADK
