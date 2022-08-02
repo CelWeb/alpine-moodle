@@ -40,7 +40,7 @@ services:
       - MOODLE_MAIL_NOREPLY_ADDRESS=webmaster@kbadk.ru
       - MOODLE_MAIL_PREFIX=[moodle]
     ports:
-      - 8080:80
+      - 8030:8070
     volumes:
       - moodledata:/var/www/moodledata
       - moodlehtml:/var/www/html
