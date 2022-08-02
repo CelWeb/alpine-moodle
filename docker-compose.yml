@@ -5,9 +5,9 @@ services:
     image: postgres:alpine
     restart: unless-stopped
     environment:
-      - POSTGRES_PASSWORD=moodleDBXKagC
-      - POSTGRES_USER=moodleCelDB
-      - POSTGRES_DB=moodleceladmin
+      - POSTGRES_PASSWORD=u8HXKagCn0
+      - POSTGRES_USER=celadmin
+      - POSTGRES_DB=moodleDBXKagC
     volumes:
       - postgres:/var/lib/postgresql/data
 
