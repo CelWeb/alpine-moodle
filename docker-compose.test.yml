@@ -3,7 +3,7 @@ services:
   app:
     build: .
     environment:
-      - SITE_URL=http://app:8080
+      - SITE_URL=http://app:8085
     depends_on:
       - postgres
 
