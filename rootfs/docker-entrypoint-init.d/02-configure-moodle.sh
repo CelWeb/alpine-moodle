@@ -89,7 +89,7 @@ if php8 -d max_input_vars=10000 /var/www/html/admin/cli/isinstalled.php ; then
     chmod 444 config.php
 
     # Fix publicpaths check to point to the internal container on port 8080
-    sed -i 's/wwwroot/wwwroot\ \. \"\:8080\"/g' lib/classes/check/environment/publicpaths.php
+    sed -i 's/wwwroot/wwwroot\ \. \"\:8085\"/g' lib/classes/check/environment/publicpaths.php
 
 else
     echo "Upgrading moodle..."
