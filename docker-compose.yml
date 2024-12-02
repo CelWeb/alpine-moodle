@@ -18,7 +18,7 @@ services:
     environment:
       - LANG=ru_RU.UTF-8
       - LANGUAGE=ru_RU:ru
-      - SITE_URL=http://spo-tf.kbadk.ru/
+      - SITE_URL=http://spo.kbadk.ru/
       - DB_TYPE=pgsql
       - DB_HOST=postgres
       - DB_PORT=5432
@@ -40,7 +40,7 @@ services:
       - MOODLE_MAIL_NOREPLY_ADDRESS=webmaster@kbadk.ru
       - MOODLE_MAIL_PREFIX=[moodle]
     ports:
-      - 85:8080
+      - 82:8080
     volumes:
       - moodledata:/var/www/moodledata
       - moodlehtml:/var/www/html
